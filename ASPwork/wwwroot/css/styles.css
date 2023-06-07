@@ -1,0 +1,42 @@
+@keyframes waving-flag {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 0 -100%;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+body {
+    background-color: #005cbf;
+    background-image: linear-gradient(to bottom, #ffd500 50%, transparent 50%);
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    animation: waving-flag 10s infinite;
+}
+
+.link-button {
+    display: inline-block;
+    padding: 25px 25px;
+    background-color: #fff;
+    color: #005cbf;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    text-align: center;
+}
